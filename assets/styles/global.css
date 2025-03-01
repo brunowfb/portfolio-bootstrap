@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    height: 40%;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    gap:30px;
+    
+}
+
+.botoes {
+    
+    align-items: center;
+}
+.container {
+    display: flex;
+    
+    
+
+}
+
+iframe {
+    
+    width: 80vw;
+    height: 75vh;
+    padding-left: 30px;
+    border: none;
+    
+}
+
+footer {
+    margin-top: 39px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    height:32%;
+    text-align: center;
+    padding-bottom: 0.1px;
+}
+

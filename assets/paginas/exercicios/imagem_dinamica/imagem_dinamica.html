@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="../../../imagens/exercicios/imagem_dinamica/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="../../../imagens/exercicios/imagem_dinamica/foto-m.png" type="image/png">
+        <img src="../../../imagens/exercicios/imagem_dinamica/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <H1>Reproduzindo Áudio</H1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="../../../midias/exercicios/imagem_dinamica/guanacast-33.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="../../../midias/exercicios/imagem_dinamica/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+</body>
+<footer style="padding: 100px; text-align:center;">
+    <p>
+        <a href="../../exercicios.html"><img src="../../../imagens/voltar.png" alt="voltar"></a>
+    </p>
+    <h2>Voltar</h2>
+  </footer>
+</html>

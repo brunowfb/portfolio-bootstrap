@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header > div > h1 {
+    
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0,8em;
+
+}
+
+main {
+
+    display: flex;       
+}
+
+.cabecalho {
+    padding-bottom: 20px;
+}
+
+.projetos {
+    display: flex;
+    max-width: 99%;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    
+}
+
+
+
+.item {
+    display: flex;
+    max-width: 100%;  
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.100);
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 10px;
+    justify-content: space-around;
+    column-gap: 50px;
+}
+
+.alinhamento {
+    
+    width: 150px;
+    flex-basis: 100px;
+    margin-top: 10px;
+    
+}
+
+.botao {
+    
+    background-color:  rgb(39, 71, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+
+.botao > a {
+    flex: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.botao:hover {
+    background-color: rgb(226, 161, 21);
+    color: black;
+    
+}
+.botao > a:hover {
+    color: black;
+    font-weight: bolder;
+
+}
+
